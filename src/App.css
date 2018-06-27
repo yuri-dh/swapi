@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 60px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 120px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.2em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+h3 {
+  margin: 10px;
+  font-size: 30px;
+}
+
+span {
+  color: rgb(29, 161, 242);
+}
+
+.reloj-container{
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  width: 300px;
+  margin: 0 auto;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
